@@ -17,6 +17,10 @@ body {
   width: 100%;
   max-width: 100%;
 }
+option {
+  color: white;
+  background-color: rgba(0, 0, 0, 5);
+}
 .Register {
   position: absolute;
   left: 55%;
@@ -43,8 +47,12 @@ p {
   color: gray;
 }
 .radio {
-  outline: 1px solid #4a4848;
-  outline-style: auto;
+  /* outline: 1px solid #4a4848;
+  outline-style: auto; */
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  border-radius: 50%;
 }
 .radio:hover {
   cursor: pointer;
@@ -90,6 +98,9 @@ label:hover {
   width: 45%;
   color: gray;
 }
+.zip {
+  color: #4caf50 !important;
+}
 span {
   width: 6%;
   display: inline-block;
@@ -114,7 +125,7 @@ span {
   background-color: #dbdbdb;
 }
 #submit:active {
-  /* background-color: #999999; */
+  background-color: #999999;
 }
 @media only screen and (max-width: 768px) {
   body {
