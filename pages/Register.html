@@ -12,7 +12,7 @@ and open the template in the editor.
     <!-- Normalize File -->
     <link rel="stylesheet" href="../css/normalize.css" />
     <!-- Main Css File -->
-    <link rel="stylesheet preconnect" href="../css/Register Css.css" />
+    <link rel="stylesheet preconnect" href="../css/Register.css" />
     <!-- Wow.js File => Animate.css -->
     <link rel="stylesheet preconnect" href="../css/animate.css" />
     <!-- Font Awesome icons -->
@@ -45,12 +45,16 @@ and open the template in the editor.
       </p>
     </div>
     <div class="login">
-      <input type="radio" class="radio" name="choose" />&nbsp;Mr.
+      <input type="radio" class="radio" name="choose" id="one" />
+      <label for="one">Mr.</label>
       &nbsp;&nbsp;&nbsp;
-      <input type="radio" class="radio" name="choose" />&nbsp;Ms.
+      <input type="radio" class="radio" name="choose" id="two" />
+      <label for="two">Ms.</label>
       &nbsp;&nbsp;&nbsp;
-      <input type="radio" class="radio" name="choose" />&nbsp;Mrs.
-      <br />
+      <input type="radio" class="radio" name="choose" id="three" />
+      <label for="three">Mrs.</label>
+      &nbsp;&nbsp;&nbsp;
+      <br>
       <input type="text" placeholder="First Name" class="textin" required />
       <br />
       <input type="text" placeholder="Last Name" class="textin" required />
@@ -84,7 +88,7 @@ and open the template in the editor.
         required
       />
       <br />
-      <div id="submit">Submit</div>
+      <button id="submit">Submit</button>
     </div>
   </body>
 </html>

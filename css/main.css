@@ -11,6 +11,7 @@ body {
 }
 a {
   text-decoration: none;
+  width: fit-content;
 }
 span {
   transition: all 0.3s ease;
@@ -20,6 +21,24 @@ span {
   -o-transition: all 0.3s ease;
 }
 span:hover {
+  cursor: pointer;
+  color: #343a40;
+}
+ul {
+  list-style: none;
+  opacity: 1;
+}
+ul li {
+  color: white;
+  width: fit-content;
+  margin: 40px 0 40px 25%;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+ul li:hover {
   cursor: pointer;
   color: #343a40;
 }
@@ -56,7 +75,7 @@ span:hover {
 .input .text h1 {
   font-size: 4em;
   font-weight: normal;
-  text-align: center;
+  margin-left: 28%;
 }
 .input .text p {
   font-weight: 100;
@@ -66,16 +85,20 @@ span:hover {
   width: 300px;
   margin-top: 320px;
   height: fit-content;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
   background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0.5;
 }
-.input .list p {
-  color: white;
-  opacity: 1;
-  margin: 20px;
+@media (max-width: 1080px) {
+  .input .list {
+    margin-top: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    -webkit-transform: translate(-50%, -10%);
+    -moz-transform: translate(-50%, -10%);
+    -ms-transform: translate(-50%, -10%);
+    -o-transform: translate(-50%, -10%);
+  }
 }
 .contain-input .footer {
   width: fit-content;
