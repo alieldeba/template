@@ -12,6 +12,17 @@ body {
 a {
   text-decoration: none;
 }
+span {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+span:hover {
+  cursor: pointer;
+  color: #343a40;
+}
 /* Ending Global Rules */
 /* Starting input */
 .contain-input {
@@ -35,17 +46,6 @@ a {
   top: 0;
   min-height: 200vh;
   overflow: hidden;
-}
-.input span {
-  transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-}
-.input span:hover {
-  cursor: pointer;
-  color: #343a40;
 }
 .input .text {
   margin: 25% 10px 0 0;
