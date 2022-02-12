@@ -1,0 +1,200 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 11, 2022, 7:30:39 PM
+    Author     : E M T
+*/
+body{
+    background-image: url('../images/input-bg-06.jpg');
+    background-size: 126%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+}
+.text{
+    width: 35%;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ececec;
+    margin-top: 45px;
+    text-align: center;
+    line-height: 25px;
+}
+.text::first-line{
+    font-size: 35px;
+    line-height: 100px;
+    color: white
+}
+.alldivs{
+    background: hsl(0deg 0% 0% / 60%);
+    height: auto;
+    display: inline-block;
+    padding: 35px 20px;
+    margin-left: 22%;
+    margin-right: auto;
+    width: 50%;
+    color: #ececec;
+    margin-top: 40px;
+    line-height: 30px;
+    font-size: 17px;
+}
+.radio{
+    margin: 27px 15px 10px;
+    height: 15px;
+    width: 15px;
+    outline: 2px auto black;
+    cursor: pointer;
+    accent-color: black;
+}
+c{
+    position: relative;
+    top: -1px;
+    cursor: pointer;
+}
+.area{
+    min-height: 120px;
+    max-height: 300px;
+    background: none;
+    width: 45%;
+    margin-left: 2%;
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    outline: 0.5px solid white;
+}
+.area:focus{
+    border: 2px solid #00cccc;
+    border-radius: 5px;
+}
+.checkbox{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+span{
+    position: absolute;
+    width: 20%;
+    line-height: 55px;
+    margin: 20px 0px 0px 25px;
+}
+r{
+    position: relative;
+    top: -5px;
+    color: #ececec;
+    margin-left: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+select{
+    margin-left: 2%;
+    margin-top: 25px;
+    width: 45%;
+    background: none;
+    border: hidden;
+    border-bottom: 0.5px solid;
+    color: #c8c8c8;
+    height: 40px;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+select:focus{
+    border-color: #00cccc
+}
+.username{
+    height: 40px;
+    margin-left: 5%;
+    width: 45%;
+    background: none;
+    border: hidden;
+    border-bottom: 0.5px solid;
+    color: #c8c8c8;
+    font-size: 16px;
+}
+.username:focus{
+    outline: none;
+    border-bottom: 2px solid #00cccc
+}
+.type{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 8px;
+    left: 35px;
+    margin-right: 35px;
+    accent-color: black;
+    outline: 0.5px auto black;
+    cursor: pointer;
+}
+o{
+    top: 6px;
+    position: relative;
+    left: 10px;
+}
+#area2{
+    width: 92%;
+    margin-right: auto;
+    font-size: 18px;
+    padding: 10px 13px;
+    margin-top: 50px;
+}
+#submit{
+    position: relative;
+    margin: 40px auto 150px;
+    width: 200px;
+    text-align: center;
+    background: black;
+    color: #ececec;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#submit:hover{
+     background: hsl(0deg 0% 0% / 60%);
+}
+@media screen and (max-width: 768px) {
+    body{
+        background-size: cover
+    }
+    .text{
+        width: 70%;
+        margin-left: auto;
+        font-size: 18px
+    }
+    .alldivs{
+        width: 90%;
+        margin-left: auto;
+    }
+    .area{
+        width: 92%
+    }
+    span{
+        position: relative;
+        margin: 0px;
+        top: 10px;
+    }
+    select{
+        width: 95%;
+    }
+    .username{
+        margin-top: 20px;
+        width: 92%;
+        margin-left: 2%;
+    }
+    .type{
+        margin: 30px 35px 0px -25px;
+    }
+    o{
+        margin-right: 30px
+    }
+    #area2{
+        margin-top: 30px;
+        width: 85%;
+    }
+}
